@@ -1,21 +1,13 @@
 <template>
   <div class="editor">
-    <editor
-      v-model="msg"
-      @init="editorInit"
-      lang="java"
-      theme="xcode"
-      width="100%"
-      height="780"
-      ref="myEditor"
-    ></editor>
+    <editor v-model="msg" @init="editorInit" lang="java" theme="xcode" width="100%" height="780" ref="myEditor"></editor>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Editor',
-  data () {
+  data() {
     return {
       msg: `
           import java.awt.*;
@@ -61,11 +53,11 @@ export default {
   components: {
     editor: require('vue2-ace-editor')
   },
-  mounted () {
+  mounted() {
     this.init()
   },
   methods: {
-    editorInit () {
+    editorInit() {
       require('brace/ext/language_tools') // language extension prerequsite...
       require('brace/mode/html')
       require('brace/mode/java') // language
@@ -73,14 +65,13 @@ export default {
       require('brace/theme/xcode')
       require('brace/snippets/java') // snippet
     },
-    init () {
+    init() {
       let editor = this.$refs.myEditor.editor
-      editor.setReadOnly(true)// 设置禁用
+      editor.setReadOnly(true) // 设置禁用
       editor.setFontSize(20)
     }
   }
 }
 </script>
 
-<style scoped lang="less">
-</style>
+<style scoped lang="less"></style>

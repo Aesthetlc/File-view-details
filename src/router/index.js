@@ -4,8 +4,7 @@ import Editor from '../views/editor.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
+const routes = [{
     path: '/',
     name: 'editor',
     component: Editor
@@ -54,6 +53,46 @@ const routes = [
     path: '/bianlikey',
     name: 'bianlikey',
     component: () => import('../views/bianlikey.vue')
+  },
+  {
+    path: '/dongtaiyangshi',
+    name: 'dongtaiyangshi',
+    component: () => import('../views/dongtaiyangshi.vue')
+  },
+  {
+    path: '/echarts',
+    name: 'echarts',
+    component: () => import('../views/echarts.vue')
+  },
+  {
+    path: '/china',
+    name: 'china',
+    component: () => import('../views/china.vue')
+  },
+  {
+    path: '/jsc',
+    name: 'jsc',
+    component: () => import('../views/jsc.vue')
+  },
+  {
+    path: '/buzhoutiao',
+    name: 'buzhoutiao',
+    component: () => import('../views/buzhoutiao.vue')
+  },
+  {
+    path: '/gojs',
+    name: 'gojs',
+    component: () => import('../views/gojs.vue')
+  },
+  {
+    path: '/liuchengtu',
+    name: 'liuchengtu',
+    component: () => import('../views/liuchengtu.vue')
+  },
+  {
+    path: '/yongdaotu',
+    name: 'yongdaotu',
+    component: () => import('../views/yongdaotu.vue')
   }
 ]
 

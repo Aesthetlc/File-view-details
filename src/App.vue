@@ -10,7 +10,15 @@
       <router-link to="/biabliduixiang">遍历对象</router-link>|
       <router-link to="/jisuanshuxing">计算属性</router-link>|
       <router-link to="/watch">watch</router-link>|
-      <router-link to="/bianlikey">遍历key</router-link>
+      <router-link to="/bianlikey">遍历key</router-link>|
+      <router-link to="/dongtaiyangshi">动态样式</router-link>|
+      <router-link to="/echarts">echarts</router-link>|
+      <router-link to="/china">地图</router-link>|
+      <router-link to="/jsc">jsc</router-link>|
+      <router-link to="/buzhoutiao">step</router-link>|
+      <router-link to="/gojs">gojs</router-link>|
+      <router-link to="/liuchengtu">流程图</router-link>|
+      <router-link to="/yongdaotu">泳道图</router-link>
     </div>
     <router-view />
   </div>
