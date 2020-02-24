@@ -279,7 +279,7 @@ export default {
       that.myDiagram.nodeTemplate = $(
         go.Node,
         'Auto',
-        new go.Binding('location', 'locaaaaa', go.Point.parse).makeTwoWay(go.Point.stringify),
+        new go.Binding('location', 'loc', go.Point.parse).makeTwoWay(go.Point.stringify),
         $(go.Shape, 'Rectangle', { fill: 'white', portId: '', cursor: 'pointer', fromLinkable: true, toLinkable: true }),
         $(go.TextBlock, { margin: 15 }, new go.Binding('text', 'key')),
         { dragComputation: stayInGroup }

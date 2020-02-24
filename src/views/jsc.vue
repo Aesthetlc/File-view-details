@@ -15,7 +15,7 @@ import test1 from '@/components/test1.vue'
 export default {
   data() {
     return {
-      textarea: '',
+      textarea: 'window.first(\'aaaaaaa\')',
       dialogVisible: false,
       showFlag: false
     }
@@ -50,7 +50,7 @@ export default {
       let editor = this.$refs.myEditor.editor
       editor.setFontSize(20)
     },
-    close(){
+    close() {
       this.dialogVisible = false
     }
   }
@@ -58,12 +58,12 @@ export default {
 </script>
 
 <style>
-.main{
+.main {
   /* position: relative; */
   width: 100%;
   height: 100%;
 }
-.tan{
+.tan {
   position: absolute;
   top: 10%;
   left: 25%;
@@ -73,5 +73,4 @@ export default {
   border: 1px solid #000;
   padding: 5px;
 }
-
 </style>

@@ -18,7 +18,10 @@
       <router-link to="/buzhoutiao">step</router-link>|
       <router-link to="/gojs">gojs</router-link>|
       <router-link to="/liuchengtu">流程图</router-link>|
-      <router-link to="/yongdaotu">泳道图</router-link>
+      <router-link to="/yongdaotu">泳道图</router-link>|
+      <router-link to="/vuegojs">vue-js</router-link>|
+      <router-link to="/topology">topology</router-link>|
+      <router-link to="/vfd">vfd</router-link>
     </div>
     <router-view />
   </div>

@@ -9,6 +9,8 @@ import VueJsonp from 'vue-jsonp'
 import ElementUI from 'element-ui'
 import go from 'gojs'
 import 'element-ui/lib/theme-chalk/index.css'
+// import './utils/rem.js'
+// import './utils/canvas2svg.js'
 
 Vue.config.productionTip = false
 Vue.prototype.$echarts = echarts

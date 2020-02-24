@@ -93,6 +93,21 @@ const routes = [{
     path: '/yongdaotu',
     name: 'yongdaotu',
     component: () => import('../views/yongdaotu.vue')
+  },
+  {
+    path: '/vuegojs',
+    name: 'vuegojs',
+    component: () => import('../views/vuegojs.vue')
+  },
+  {
+    path: '/topology',
+    name: 'topology',
+    component: () => import('../views/topology.vue')
+  },
+  {
+    path: '/vfd',
+    name: 'vfd',
+    component: () => import('../views/vfd.vue')
   }
 ]
 
